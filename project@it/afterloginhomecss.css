@@ -1,0 +1,85 @@
+.logout {
+ background:url('btn-login.png') no-repeat 5px 5px #484B4F;
+  width: 100px;
+  cursor:pointer;
+  border-radius:50px;
+  padding:10px 20px 10px 0;
+  color:White;
+  font-size:14px;
+  text-align:left;
+  text-indent:40px;
+  display:block;
+  margin:0 auto;
+ 
+  /* Animations: */
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: .4s;
+  -webkit-transition-property: all;
+  
+  -moz-transition-timing-function: ease-in-out;
+  -moz-transition-duration: .4s;
+  -moz-transition-property: all;
+}
+
+.logout:hover {
+  background-image: url( 'btn-login-hover.png' );
+  background-position: 65px 5px;
+  text-indent: 15px;  
+}
+body{
+  background-color: #E0FFFF;
+  margin: 0px;
+ 
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left:0px;
+    padding: 0;
+    width: 180px;
+    background-color: #9ACD32;
+
+          }
+
+     li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+     }
+
+     li button {
+      width: 280px;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    size: 10%;
+     }
+
+     li a:hover:not(.active) {
+    background-color: #585858;
+    color: white;
+   }
+   li button:hover:not(.active) {
+    background-color: #CEF6D8;
+    color: white;
+   }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+th, td {
+    padding: 0px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+
+  
